@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>FrontierAI</title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag "all" %>
+  </head>
+  <body>
+
+    <div id="main" class="container" role="main">
+      <%= yield %>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-left copyright">&copy; <%= Date.today.strftime("%Y") %> Frontier.ai Inc. // <a href="#">Get in touch</a></p>
+      </div>
+    </div>
+  </body>
+</html>
