@@ -1,0 +1,32 @@
+/* line 2, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+body {
+  border-top: 12px solid #4F85C5; }
+
+/* line 6, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+#main {
+  height: 94vh;
+  width: 100vw; }
+
+/* line 10, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+.logo {
+  margin-bottom: 20px; }
+
+/* line 14, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+#landing-page {
+  margin-top: 20vh;
+  margin-left: 15vw;
+  max-width: 40%; }
+  /* line 18, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  #landing-page p {
+    color: #8B8B8B;
+    font-size: 2em;
+    font-weight: 300; }
+
+@media (max-width: 500px) {
+  /* line 26, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  #landing-page p {
+    font-size: 1em; } }
+@media (max-width: 776px) {
+  /* line 32, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  #landing-page p {
+    font-size: 1.5em; } }
