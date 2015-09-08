@@ -7293,3 +7293,7 @@ body {
     #footer p a:hover {
       color: #4F85C5;
       text-decoration: none; }
+
+/* line 23, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
+div#main {
+  padding-right: 0; }
