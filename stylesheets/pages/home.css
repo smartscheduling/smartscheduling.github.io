@@ -1,32 +1,36 @@
-/* line 2, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 3, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 body {
   border-top: 12px solid #4F85C5; }
 
-/* line 6, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 7, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 #main {
-  height: 94vh;
+  height: 92vh;
   width: 100vw; }
 
-/* line 10, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 11, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 .logo {
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
 
-/* line 14, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 15, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 #landing-page {
-  margin-top: 20vh;
-  margin-left: 15vw;
-  max-width: 40%; }
-  /* line 18, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  margin-top: 29vh;
+  margin-left: 12vw;
+  max-width: 60%; }
+  /* line 19, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
   #landing-page p {
     color: #8B8B8B;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 300; }
 
 @media (max-width: 500px) {
-  /* line 26, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  /* line 27, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
   #landing-page p {
-    font-size: 1em; } }
+    font-size: .5em; } }
 @media (max-width: 776px) {
-  /* line 32, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  /* line 33, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
   #landing-page p {
-    font-size: 1.5em; } }
+    font-size: .8em; } }
+@media (max-width: 1250px) {
+  /* line 39, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  #landing-page p {
+    font-size: 1.2em; } }
