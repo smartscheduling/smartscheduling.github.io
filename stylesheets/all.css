@@ -1,10 +1,12 @@
 @charset "UTF-8";
+/* Frameworks */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /* line 9, /Users/spencerdixon/.gem/ruby/2.1.5/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -7245,6 +7247,8 @@ button.close {
   /* line 18, /Users/spencerdixon/.gem/ruby/2.1.5/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
+/* Fonts */
+/* Custom */
 /* line 3, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 body {
   border-top: 12px solid #4F85C5; }
@@ -7266,6 +7270,7 @@ body {
   /* line 19, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
   #landing-page p {
     color: #8B8B8B;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 300; }
 
@@ -7284,25 +7289,26 @@ body {
 /* font-size: 1.2em; */
 /* } */
 /* } */
-/* line 5, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
+/* line 12, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
 #footer {
   height: 8vh;
   background: #4D4D4D; }
-  /* line 8, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
+  /* line 15, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
   #footer p.copyright {
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1em;
     font-size: 14px;
     padding-top: 20px;
     padding-left: 10%; }
-  /* line 15, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
+  /* line 23, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
   #footer p a {
     color: white; }
-    /* line 17, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
+    /* line 25, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
     #footer p a:hover {
       color: #4F85C5;
       text-decoration: none; }
 
-/* line 24, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
+/* line 32, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
 div#main {
   padding-right: 0; }

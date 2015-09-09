@@ -19,6 +19,7 @@ body {
   /* line 19, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
   #landing-page p {
     color: #8B8B8B;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 300; }
 
