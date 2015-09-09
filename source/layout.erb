@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>FrontierAI</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
@@ -14,9 +15,7 @@
     </div>
 
     <div id="footer">
-      <div class="container">
-        <p class="text-left copyright"><a href="mailto:team@frontier.ai">Get in touch</a></p>
-      </div>
+      <p class="text-left copyright">&copy; <%= Date.today.strftime("%Y") %> Arsenal Health Inc. // <a href="mailto:team@frontier.ai">Get in touch</a></p>
     </div>
   </body>
 </html>

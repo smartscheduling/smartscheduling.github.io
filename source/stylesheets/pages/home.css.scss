@@ -1,36 +1,43 @@
 @import "variables";
+
 body {
   border-top: 12px solid $blue;
 }
 
 #main {
-  height: 94vh;
+  height: 92vh;
   width: 100vw;
 }
 .logo {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #landing-page {
-  margin-top: 20vh;
-  margin-left: 15vw;
-  max-width: 40%;
+  margin-top: 29vh;
+  margin-left: 12vw;
+  max-width: 60%;
   p {
     color: $light-gray;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 300;
   }
 }
 
 @media (max-width: 500px) {
   #landing-page p {
-    font-size: 1em;
+    font-size: .5em;
   }
 }
 
 @media (max-width: 776px) {
   #landing-page p {
-    font-size: 1.5em;
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 1250px) {
+  #landing-page p {
+    font-size: 1.2em;
   }
 }
 

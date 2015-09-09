@@ -3,12 +3,14 @@
 @import "pages/home";
 
 #footer {
-  height: 6vh;
+  height: 8vh;
   background: $dark-gray;
   p.copyright {
     color: white;
     font-size: 1.5em;
-    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 10%;
   }
   p a {
     color: white;
@@ -18,7 +20,6 @@
     }
   }
 }
-
 
 div#main {
   padding-right: 0;
