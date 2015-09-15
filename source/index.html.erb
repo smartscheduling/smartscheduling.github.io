@@ -6,14 +6,16 @@ per_page: 10
 
 <div id="landing-page">
   <%= image_tag 'logo.png', class: 'img-responsive logo' %>
-  <p>
-    We're closing the loop on learning from every patient encounter to help people </br>
-    and their providers individualize care and make data-driven decisions 100% of the time.
-  </p>
-  </br>
-  <p>
-    Open and collaborative medicine.  That's the frontier.
-  </p>
+  <div class='tag-line'>
+    <p>
+      We're closing the loop on learning from every patient encounter to help people
+      and their providers individualize care and make data-driven decisions 100% of the time.
+    </p>
+    </br>
+    <p>
+      Open and collaborative medicine.  That's the frontier.
+    </p>
+  </div>
 </div>
 
 <% if paginate && num_pages > 1 %>
