@@ -7274,6 +7274,11 @@ body {
     font-size: 1em;
     font-weight: 300; }
 
+/* line 27, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+.tag-line {
+  width: 60%;
+  max-width: 600px; }
+
 /* @media (max-width: 500px) { */
 /* #landing-page p { */
 /* font-size: .5em; */
