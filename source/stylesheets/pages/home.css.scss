@@ -1,10 +1,7 @@
 @import "variables";
 
-body {
-  border-top: 12px solid $blue;
-}
-
 #main {
+  border-top: 12px solid $blue;
   height: 90vh;
   width: 100vw;
 }
