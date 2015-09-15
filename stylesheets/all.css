@@ -7250,31 +7250,28 @@ button.close {
 /* Fonts */
 /* Custom */
 /* line 3, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
-body {
-  border-top: 12px solid #4F85C5; }
-
-/* line 7, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 #main {
+  border-top: 12px solid #4F85C5;
   height: 90vh;
   width: 100vw; }
 
-/* line 11, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 8, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 .logo {
   margin-bottom: 40px; }
 
-/* line 15, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 12, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 #landing-page {
   margin-top: 29vh;
   margin-left: 12vw;
   max-width: 60%; }
-  /* line 19, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+  /* line 16, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
   #landing-page p {
     color: #8B8B8B;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 300; }
 
-/* line 27, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
+/* line 24, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/pages/home.css.scss */
 .tag-line {
   width: 60%;
   max-width: 600px; }
@@ -7296,7 +7293,7 @@ body {
 /* } */
 /* line 12, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
 #footer {
-  height: 8vh;
+  height: 10vh;
   background: #4D4D4D; }
   /* line 15, /Users/spencerdixon/work/apps/frontierAI/source/stylesheets/all.css.scss */
   #footer p.copyright {
